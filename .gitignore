@@ -1,0 +1,35 @@
+# --- Deep Learning Data ---
+# Never upload the raw images or zip files
+data/
+datasets/
+GTSRB/
+GTSDB/
+*.zip
+*.tar.gz
+*.csv
+
+# --- Model Weights & Checkpoints ---
+# These are too large for GitHub (Save them to Google Drive instead)
+*.h5
+*.pth
+*.weights
+*.pkl
+*.pb
+checkpoint/
+
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.virtualenv/
+venv/
+env/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Colab Specific ---
+.config/
+sample_data/
